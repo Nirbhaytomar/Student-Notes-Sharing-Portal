@@ -7,19 +7,27 @@
   background-color: #f8fafc;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 
-* {
+*, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
 body {
   min-height: 100vh;
+  min-width: 320px;
   background-color: #f8fafc;
   color: #0f172a;
   line-height: 1.6;
+  overflow-x: hidden;
 }
 
 a {
@@ -34,4 +42,9 @@ a:hover {
 
 button, input, select, textarea {
   font-family: inherit;
+}
+
+img, iframe, svg, video {
+  max-width: 100%;
+  height: auto;
 }

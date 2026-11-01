@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Allow: /api/notes/*/download
+Allow: /api/notes/*/preview
+Disallow: /dashboard
+
+Sitemap: https://noteshub.edu/sitemap.xml
+

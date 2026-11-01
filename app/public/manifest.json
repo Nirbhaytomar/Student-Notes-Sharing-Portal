@@ -1,0 +1,17 @@
+{
+  "name": "NotesHub — College Notes & Study Material Sharing Portal",
+  "short_name": "NotesHub",
+  "description": "Discover, share and download study notes, lecture slides, question banks and lab manuals with students worldwide.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#2563eb",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
+
